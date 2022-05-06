@@ -1,0 +1,22 @@
+.four-dots span:nth-child(1){
+  position: absolute;
+  top: 35px;
+  left: 35px;
+}
+ .four-dots span:nth-child(2){
+  position: absolute;
+  bottom: 35px;
+  right: 35px;
+}
+
+ .four-dots span:nth-child(3){
+  position: absolute;
+  top: 35px;
+  right: 35px;
+}
+
+ .four-dots span:nth-child(4){
+  position: absolute;
+  bottom: 35px;
+  left: 35px;
+}

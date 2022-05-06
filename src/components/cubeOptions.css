@@ -1,0 +1,130 @@
+body {
+  background: #f0f0f0;
+}
+.wrapper-options {
+  display: flex;
+  flex-direction: column;
+  height: 850px;
+}
+.footer-options {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  font-family: "fontawesome";
+  height: 100%;
+}
+
+.container .cube-options div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  border: 2px solid #eee;
+  color: #fff;
+}
+.container .cube-options div span {
+  font-size: 32px;
+  font-family: "fontawesome";
+}
+.form-control {
+  height: 70px;
+  width: 100px;
+  box-shadow: none;
+  border-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(78, 9, 119);
+ 
+}
+.form-control:hover{
+    cursor: pointer;
+   
+}
+input {
+   color: rgb(225, 205, 24);
+  font-size: 4.2em;
+}
+.form-control::placeholder {
+  text-align: center;
+  color: rgb(225, 205, 24);
+  font-size: 1em;
+}
+.container .cube-options .front {
+  position: absolute;
+  left: 45%;
+  top: 71.5%;
+  height: 200px;
+  width: 200px;
+  background: rgb(78, 9, 119);
+}
+/* .container .cube-options .front:hover {
+  background: rgb(109, 36, 109);
+} */
+.container .cube-options .back {
+  position: absolute;
+  left: 45%;
+  top: 8.7%;
+  height: 200px;
+  width: 200px;
+  background: rgb(78, 9, 119);
+}
+.container .cube-options .back:hover {
+  background: rgb(109, 36, 109);
+}
+.container .cube-options .right {
+  position: absolute;
+  left: 56.2%;
+  top: 40%;
+  height: 200px;
+  width: 200px;
+  background: rgb(78, 9, 119);
+}
+.container .cube-options .right:hover {
+  background: rgb(109, 36, 109);
+}
+.container .cube-options .left {
+  position: absolute;
+  left: 33.8%;
+  top: 40%;
+  height: 200px;
+  width: 200px;
+  background: rgb(78, 9, 119);
+}
+.container .cube-options .left:hover {
+  background: rgb(109, 36, 109);
+}
+.container .cube-options .top {
+  position: absolute;
+  left: 45%;
+  top: 40%;
+  height: 200px;
+  width: 200px;
+  background: rgb(78, 9, 119);
+}
+.container .cube-options .top:hover {
+  background: rgb(109, 36, 109);
+}
+.container .cube-options .bottom {
+  position: absolute;
+  left: 67.4%;
+  top: 40%;
+  height: 200px;
+  width: 200px;
+  background: rgb(78, 9, 119);
+}
+.container .cube-options .bottom:hover {
+  background: rgb(109, 36, 109);
+}

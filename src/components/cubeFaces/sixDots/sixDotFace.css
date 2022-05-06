@@ -1,0 +1,18 @@
+.six-dots pre{
+  font-size: 32px;
+  font-family: 'fontawesome';
+  margin: 0;
+}
+.six-dots span{
+  margin:10px;
+}
+.six-dots .firstPre{
+  position: absolute;
+  top: 40px;
+  left: 30px;
+}
+.six-dots .secondPre{
+  position: absolute;
+  bottom: 40px;
+  right: 30px;
+} 
