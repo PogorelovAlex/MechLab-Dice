@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MechLab-Dice/static/css/main.f80c8168.css",
+    "main.js": "/MechLab-Dice/static/js/main.9acada22.js",
+    "index.html": "/MechLab-Dice/index.html",
+    "main.f80c8168.css.map": "/MechLab-Dice/static/css/main.f80c8168.css.map",
+    "main.9acada22.js.map": "/MechLab-Dice/static/js/main.9acada22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f80c8168.css",
+    "static/js/main.9acada22.js"
+  ]
+}
