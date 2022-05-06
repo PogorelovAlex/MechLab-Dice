@@ -1,3 +1,6 @@
+# Одностраничное приложение, которое имитирует бросание игрального кубика
+![](https://github.com/PogorelovAlex/MechLab-Dice/blob/main/dice.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
